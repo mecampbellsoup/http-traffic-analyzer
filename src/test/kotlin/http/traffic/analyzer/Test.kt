@@ -1,7 +1,7 @@
-package httptrafficanalyzer.tests
+package http.traffic.analyzer.tests
 
-import kotlin.test.assertEquals
 import org.junit.Test
+import kotlin.test.assertEquals
 
 class TestSource() {
     @Test
