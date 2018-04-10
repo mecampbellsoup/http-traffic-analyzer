@@ -17,6 +17,12 @@ Path,User,Timestamp
 1. Parse the logs `http-access-logs.csv`, and write a `Request` record (associated with both a `User` record and a `Path` record) to the DB for each row in the logfile.
 1. Use the functions in `Calculator` class to generate summary statistics, e.g. the below [sample output](#sample-output). See those queries for more detail.
 
+### Running the application
+
+```bash
+gradle run --info
+```
+
 ### Sample output
 
 Using [this test data](https://github.com/mecampbellsoup/http-traffic-analyzer/blob/master/http-access-logs.csv), running the main program will output results equal to: 
